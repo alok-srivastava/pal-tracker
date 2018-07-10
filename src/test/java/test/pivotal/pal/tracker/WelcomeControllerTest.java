@@ -12,5 +12,6 @@ public class WelcomeControllerTest {
         WelcomeController controller = new WelcomeController("A welcome message");
 
         assertThat(controller.sayHello()).isEqualTo("A welcome message");
+        
     }
 }
